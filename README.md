@@ -161,17 +161,5 @@ lib/
 │
 └── main.dart
 
-## 📸 Screenshots
 
-<img width="941" height="478" alt="image" src="https://github.com/user-attachments/assets/4d49ecca-95c8-4ad8-a94b-1ef2ae33d1d2" />
-<img width="172" height="331" alt="image" src="https://github.com/user-attachments/assets/d2c26f24-6065-4ec3-940f-5ccfb95287e4" />
-<img width="149" height="323" alt="image" src="https://github.com/user-attachments/assets/4d46507e-6346-4438-a80e-4c30a3448064" />
 
-<img width="155" height="324" alt="image" src="https://github.com/user-attachments/assets/d908491f-c3f3-4f3e-a3d3-621614000373" />
-
-<img width="146" height="320" alt="image" src="https://github.com/user-attachments/assets/32b811bf-0bcf-4b12-af9c-81b1916385c5" />
-<img width="93" height="200" alt="image" src="https://github.com/user-attachments/assets/57be2308-f595-4899-8e65-cd48fe6d030a" />
-
-<img width="98" height="218" alt="image" src="https://github.com/user-attachments/assets/c67de9ed-95c0-47d6-be79-db5499085a02" />
-
-<img width="99" height="214" alt="image" src="https://github.com/user-attachments/assets/4153bf84-3239-422c-bee0-a4f0b07b0b9b" />
