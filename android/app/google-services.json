@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1081737259963",
+    "project_id": "bq-quiz-lab-74d5c",
+    "storage_bucket": "bq-quiz-lab-74d5c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081737259963:android:b43c69a5345b9a31a0729e",
+        "android_client_info": {
+          "package_name": "com.example.bq_quiz_lab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEaJaWog6VO8yh1xUHgZ5AXh1G01Z2OvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

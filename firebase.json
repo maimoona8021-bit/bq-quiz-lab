@@ -1,0 +1,42 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "bq-quiz-lab-74d5c",
+          "appId": "1:1081737259963:android:b43c69a5345b9a31a0729e",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "bq-quiz-lab-74d5c",
+          "configurations": {
+            "android": "1:1081737259963:android:b43c69a5345b9a31a0729e",
+            "ios": "1:1081737259963:ios:97c655250f672767a0729e",
+            "macos": "1:1081737259963:ios:97c655250f672767a0729e",
+            "web": "1:1081737259963:web:5beeab33b2b5942fa0729e",
+            "windows": "1:1081737259963:web:e022e2a27e7fd171a0729e"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix functions run lint"
+      ]
+    }
+  ]
+}
