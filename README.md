@@ -129,7 +129,18 @@ Firebase is used to manage application data and authentication, including:
 - Reports
 - Examination status
 
-s
+
+📸 Screenshots:
+<img width="155" height="328" alt="image" src="https://github.com/user-attachments/assets/a280c32f-4eb6-4755-804e-30bc3b74c514" />
+<img width="175" height="335" alt="image" src="https://github.com/user-attachments/assets/020f2e0c-1708-4c7b-a6db-1263c398981d" />
+<img width="110" height="235" alt="image" src="https://github.com/user-attachments/assets/a388e82c-ad06-4f8a-ab61-0af373131546" />
+<img width="105" height="219" alt="image" src="https://github.com/user-attachments/assets/fd976271-79c4-46b7-84c2-410a9106eb41" />
+<img width="106" height="231" alt="image" src="https://github.com/user-attachments/assets/3358f275-6550-4a5f-9682-79ad029c7f8b" />
+<img width="109" height="236" alt="image" src="https://github.com/user-attachments/assets/0a6c520e-76e0-407d-8c84-67a42270b74c" />
+<img width="113" height="235" alt="image" src="https://github.com/user-attachments/assets/44230897-8043-43a2-a2da-47d0ed562f6b" />
+
+
+
 
  🏗️ Project Architecture
 
@@ -161,5 +172,6 @@ lib/
 │
 └── main.dart
 
+     
 
 
