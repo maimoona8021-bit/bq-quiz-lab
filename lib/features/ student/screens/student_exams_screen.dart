@@ -126,8 +126,8 @@ class _StudentExamsScreenState
 
                   if (_subject != null &&
                       _subject!.isNotEmpty &&
-                      data['subject'] !=
-                          _subject) {
+                      _normalizeSubject(data['subject']) !=
+                          _normalizeSubject(_subject)) {
                     return false;
                   }
 
@@ -221,8 +221,31 @@ class _StudentExamsScreenState
         },
       ),
     );
-  }
 
+  }
+  String _normalizeSubject(dynamic value) {
+    final subject =
+        value?.toString().trim().toLowerCase() ?? '';
+
+    switch (subject) {
+      case 'isl':
+      case 'islamiyat':
+      case 'islamiat':
+      case 'islamic studies':
+        return 'islamiat';
+
+      case 'web development':
+      case 'web dev':
+        return 'web dev';
+
+      case 'cyber security':
+      case 'cybersecurity':
+        return 'cybersecurity';
+
+      default:
+        return subject;
+    }
+  }
   Widget _subjectFilters() {
     final values = [
       null,
